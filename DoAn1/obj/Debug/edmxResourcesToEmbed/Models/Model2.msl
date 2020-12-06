@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DAdoanModel1StoreContainer" CdmEntityContainer="DAdoanEntities4">
+    <EntitySetMapping Name="News">
+      <EntityTypeMapping TypeName="DAdoanModel1.News">
+        <MappingFragment StoreEntitySet="News">
+          <ScalarProperty Name="NewsID" ColumnName="NewsID" />
+          <ScalarProperty Name="Title_news" ColumnName="Title_news" />
+          <ScalarProperty Name="Image_news" ColumnName="Image_news" />
+          <ScalarProperty Name="Content_news" ColumnName="Content_news" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

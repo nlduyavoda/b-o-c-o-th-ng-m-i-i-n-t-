@@ -1,0 +1,176 @@
+﻿@model DoAn1.Models.Cart
+
+@{
+    ViewBag.Title = "ShowToCart";
+    Layout = "~/Views/Shared/_Layout_2.cshtml";
+}
+<head>
+    <style>
+        .table-shopping tr {
+            border: 1px solid #e6e6e6;
+        }
+
+        th {
+            text-align: center;
+            font-size: 13px;
+            border-bottom: none !important;
+            text-transform: uppercase;
+        }
+
+        td {
+            font-size: 15px;
+            padding: 40px 20px !important;
+        }
+
+        .input__update {
+            outline: none;
+            border: none;334m
+            border-radius: 14px;
+            text-transform: uppercase;
+            margin-top: 10px;
+            font-weight: 400;
+            font-size: 10px;
+            padding: 7px 22px;
+        }
+
+            .input__update:hover {
+                background-color: #717fe0;
+                color: white;
+            }
+
+        .cart__total {
+            font-size: 14px;
+            border: 1px solid #e6e6e6;
+            padding: 20px 10px;
+        }
+
+            .cart__total p {
+                font-size: 14px;
+                font-weight: bold;
+                display: inline;
+            }
+
+            .cart__total span {
+                font-size: 13px;
+            }
+
+        .cart__total-total {
+            padding: 10px 0;
+            border-bottom: 1px dashed #d9d9d9;
+        }
+
+        .cart_total-shopping {
+            padding: 10px 0;
+            border-bottom: 1px dashed #d9d9d9;
+        }
+
+        .cart_total-checkout {
+            margin: 10px 0;
+        }
+
+        .input__checkout {
+            margin: 10px 0;
+            display: block;
+            /* width: 150px; */
+            font-size: 14px;
+            border: 1px solid #d9d9d9;
+            padding: 10px 13px;
+        }
+
+        .btn__duyan {
+            outline: none;
+            line-height: 18px;
+            border: none;
+            color: white;
+            padding: 8px 25px;
+            font-size: 14px;
+            background-color: black;
+        }
+
+            .btn__duyan:hover {
+                background-color: #717fe0;
+                color: white;
+            }
+    </style>
+</head>
+<h2>ShowToCart</h2>
+@if (Model != null)
+{
+    <div class="row">
+        <div class="col-md-9">
+            <table class="table table-shopping">
+                <thead>
+                    <tr>
+                        <th>Product Name</th>
+                        <th>Image</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Sum</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    @foreach (var item in Model.Items)
+                    {
+                        double total = Convert.ToDouble(item._shopping_product.UnitPrice.Value * item._shopping_quantity);
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(model => item._shopping_product.NameProduct)
+                            </td>
+                            <td>
+                                <img src="@Url.Content(item._shopping_product.Images)" style="width:60px" />
+
+                            </td>
+                            <td>
+                                @Html.DisplayFor(model => item._shopping_product.UnitPrice)
+                            </td>
+                            <td>
+                                @using (Html.BeginForm("Update_Quantity_Cart", "ShoppingCart"))
+                                {
+                                    <input type="hidden" value="@item._shopping_product.IDProduct" name="ID_Product" />
+                                    <input type="number" value="@Html.DisplayFor(model=>item._shopping_quantity)" name="Quantity" />
+                                    <input class="input__update" type="submit" value="Update Quantity" />
+                                }
+
+                            </td>
+                            <td>
+                                Total: @total
+                            </td>
+                            <td>
+                                <a class="btn btn-danger" href="/ShoppingCart/RemoveCart/@item._shopping_product.IDProduct">Remove</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+
+            </table>
+        </div>
+        <div class="col-md-3">
+            @using (Html.BeginForm("Checkout", "ShoppingCart"))
+            {
+                <div class="cart__total">
+                    <h3>Cart Total</h3>
+                    <div class="cart__total-total">
+                        <p>Subtotal:</p>
+                        <span>$@Model.Total_Money()</span><br />
+                    </div>
+                    <div class="cart_total-shopping">
+                        <p>Shipping:</p>
+                        <span>There are no shipping methods available. Please double check your address, or contact us if you need any help.</span>
+                    </div>
+                    <div class="cart_total-checkout">
+                        <input class="input__checkout" type="text" name="CodeCustomer" placeholder="Code Customer" />
+                        <input class="input__checkout" type="text" name="Address_Delivery" placeholder="Address" required />
+                    </div>
+                    <a class="btn__duyan" href="../Customers/Create">Register</a>
+                    <input type="submit" value="Checkout" class="btn__duyan" />
+
+                </div>
+            }
+
+        </div>
+    </div>
+
+    <a class="btn__duyan" style="margin-top:20px;" href="@Url.Action("Index","Home")">Continue to shopping</a>
+}

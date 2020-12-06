@@ -1,0 +1,72 @@
+﻿@model IEnumerable<DoAn1.Models.Product>
+    @{
+        ViewBag.Title = "GetTop3";
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+
+ <h1 style="text-align:center">Top 3 Item Cheapest</h1>
+    @using (Html.BeginForm("GetTop3", "Home", FormMethod.Post))
+    {
+    <div  class="card__body" >
+
+        <table  class ="table table-striped">
+            <thead >
+                <tr style="font-size:20px">
+                    <th  scope="col"> @Html.DisplayNameFor(model => model.IDProduct)</th>
+                    <th scope="col">@Html.DisplayNameFor(model => model.NameProduct)</th>
+                    <th scope="col">@Html.DisplayNameFor(model => model.UnitPrice)</th>
+                    <th scope="col">@Html.DisplayNameFor(model => model.Images)</th>
+                    <th scope="col">
+                        @Html.DisplayNameFor(model => model.ProductDate)
+                    </th>
+                    <th scope="col">
+                        @Html.DisplayNameFor(model => model.Available)
+                    </th>
+                    <th scope="col">
+                        @Html.DisplayNameFor(model => model.IDCategory)
+                    </th>
+                    <th scope="col">
+                        @Html.DisplayNameFor(model => model.Descriptions)
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr style="font-size:20px">
+                        <td>
+                            @Html.DisplayFor(modelItem => item.IDProduct)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.NameProduct)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.UnitPrice)
+                        </td>
+                        <td>
+                            <img src="" />
+                            <img style="width:50px" src="@Url.Content(item.Images)" />
+
+
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ProductDate)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Available)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.IDCategory)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Descriptions)
+                        </td>
+                       
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+
+    </div>
+    }

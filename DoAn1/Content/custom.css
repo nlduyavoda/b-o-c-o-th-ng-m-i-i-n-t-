@@ -1,0 +1,33 @@
+﻿
+
+.navbar-nav li{
+    font-size:2.5rem;
+}
+.navbar{
+    box-shadow: 1px -8px 10px black;
+    padding: .5rem .5rem!important;
+    height:60px;
+    
+}
+.nav-item{
+     margin-right: 10%;
+
+
+}
+.navbar-toggler{
+    font-size: 2.25rem!important;
+
+}
+@media (max-width: 768px){
+    .navbar{
+        height:auto;
+    }
+}
+
+
+
+.col-men{
+    width: 304px;
+}
+
+

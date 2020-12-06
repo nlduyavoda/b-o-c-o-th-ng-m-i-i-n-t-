@@ -1,0 +1,137 @@
+﻿@model DoAn1.Models.Product
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+}
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>@ViewBag.Title - My ASP.NET Application</title>
+
+
+        <script src="~/Scripts/modernizr-2.6.2.js"></script>
+        <link href="~/Content/style2.css" rel="stylesheet" />
+        <link href="~/Content/custom.css" rel="stylesheet" />
+        <!-- ICON -->
+        <script src="https://kit.fontawesome.com/30d0043b0e.js"></script>
+        <!-- FONT GOOGLE -->
+        <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,700&display=swap" rel="stylesheet">
+        <!-- Boostrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+        <script src="~/scripts/script.js"></script>
+        <style>
+            .label__custom {
+                font-size: 1.2rem;
+                font-weight:700;
+            }
+        </style>
+    </head>
+<h2>Create</h2>
+
+
+@using (Html.BeginForm("Create", "Product", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+    <div class="container">
+        <div class="row" style="background-color: white;border: 1px solid #f1f1f1;border-radius: 6px;padding: 10px 10px;">
+            <div class="col-md-6" style="display: flex; align-items: center;">
+                <img src="@Url.Content(Model.Images)" style="width:300px;margin: 0 auto;" id="previewImage" />
+            </div>
+            <div class="col-md-6">
+                <div class="form-horizontal" style="background-color: #f1f1f1;padding: 5px 10px;">
+                    <h4>Product</h4>
+                    <hr />
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.NameProduct, htmlAttributes: new { @class = "label__custom control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.NameProduct, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.NameProduct, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.UnitPrice, htmlAttributes: new { @class = "label__custom control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.UnitPrice, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.UnitPrice, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Images, htmlAttributes: new { @class = "label__custom control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.Images, new { htmlAttributes = new { @class = "form-control" } })
+
+                            <input class="label__custom" type="file" name="ImageUpload" onchange="ShowImagePreview(this, document.getElementById('previewImage'))" />
+
+                            @Html.ValidationMessageFor(model => model.Images, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.ProductDate, htmlAttributes: new { @class = "label__custom control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.ProductDate, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.ProductDate, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Available, htmlAttributes: new { @class = "label__custom control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.Available, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.Available, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.IDCategory, htmlAttributes: new { @class = "label__custom control-label col-md-2" })
+                        <div class="col-md-10" style="font-size:12px">
+                            @*@Html.EditorFor(model => model.IDCategory, new { htmlAttributes = new { @class = "form-control" } })*@
+                            @{ Html.RenderAction("ChooseCategory", "Product");}
+                            @Html.ValidationMessageFor(model => model.IDCategory, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Descriptions, htmlAttributes: new { @class = "label__custom   control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.Descriptions, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.Descriptions, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-md-offset-2 col-md-10">
+                            <input type="submit" value="Create" class="btn btn-primary" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+}
+<a href="/Product" class="btn btn-primary" style="margin:10px 0;">
+    Back to list
+</a>
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+<script src="~/Content/style.js"></script>
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+

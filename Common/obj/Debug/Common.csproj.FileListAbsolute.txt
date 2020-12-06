@@ -1,0 +1,6 @@
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\Common\bin\Debug\Common.dll
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\Common\bin\Debug\Common.pdb
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\Common\obj\Debug\Common.csprojAssemblyReference.cache
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\Common\obj\Debug\Common.dll
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\Common\obj\Debug\Common.pdb

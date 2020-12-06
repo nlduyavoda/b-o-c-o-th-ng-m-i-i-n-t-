@@ -1,0 +1,74 @@
+﻿@model IEnumerable<DoAn1.Models.OrderDetail>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Index</h2>
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.UnitPriceSale)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.QuantitySale)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Order.Descriptions)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Product.NameProduct)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Total)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        int Total = Convert.ToInt32(item.QuantitySale * item.UnitPriceSale);
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.UnitPriceSale)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.QuantitySale)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Order.Descriptions)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Product.NameProduct)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Total)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
+                @Html.ActionLink("Details", "Details", new { id = item.ID }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.ID })
+            </td>
+        </tr>
+    }
+
+</table>
+
+<div class="row" style="font-size:50px">
+    <div class="col-6">Total: </div>
+    <div class="col-6">
+
+        $@Model.Sum(m => m.Total)
+    </div>
+</div>
+<div class="row" style="font-size:50px">
+    <div class="col-6">Order: </div>
+    <div class="col-6">
+
+        @Model.Count()
+    </div>
+</div>

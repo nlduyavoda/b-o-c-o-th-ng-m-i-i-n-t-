@@ -1,0 +1,171 @@
+﻿@model IEnumerable<DoAn1.Models.Product>
+@{
+    ViewBag.Title = "Men";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<head>
+    <style>
+        .fa-star {
+            font-size: 0.8rem;
+        }
+        .card_men-icon3 {
+            color:black;
+        }
+        .modal-dialog {
+            max-width: 1030px !important;
+            margin: 1.75rem auto;
+        }
+    </style>
+</head>
+<div style="text-align:left;">Hello, @ViewBag.UserName</div>
+<div style="padding: 0 0;" class="container-fluid">
+    <div class="navbar__options row">
+        <div class="col-md-4 col-6 ">
+            <div class="icon_men">
+                <i class="fas fa-sliders-h"></i>
+                <p>Shop bye</p>
+            </div>
+
+        </div>
+        <div class="col-md-4 col-6 ">
+            <div class="icon_sapxep">
+                <p>view as</p>
+                <div class="icon_sapxep-item">
+                    <i class="fas fa-th"></i>
+                    <div class="icon-mode-list">
+                        <div class="icon-bar"></div>
+                        <div class="icon-bar"></div>
+                        <div class="icon-bar"></div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="navbar__options-set col-md-4 col-12 ">
+            <div class="select_men">
+                <p class="select_men-title">Show</p>
+                <div class="show_select">
+                    <p class="show_select-name">12 Show</p>
+                    <i class="fa-select fa fa-angle-down"></i>
+                    <ul class="select_list">
+                        <li class="select_list_item">12 show</li>
+                        <li class="select_list_item">14 show</li>
+                        <li class="select_list_item">16 show</li>
+                        <li class="select_list_item">18 show</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row_contain row ">
+        @foreach (var item in Model)
+        {
+            <div class="col-men col-md-3 col-sm-6">
+                <div style="width:100%" class="card_men">
+                    <div class="card_men-images">
+                        <img style="width:100%;" class="card_home-img-item" src="@Url.Content(item.Images)" alt="">
+                        <p class="card_men-sold">Sold Out</p>
+                        <div class="card_men-listicon">
+                            <i class="card_men-icon1 far fa-heart"></i>
+                            <a data-toggle="modal" data-target="#exampleModalLong"><i class="card_men-icon2 far fa-eye"></i></a>
+                            @Html.ActionLink(".", "SanPham", new { id = item.IDProduct }, new { Class = "card_men-icon3 fas fa-sync-alt" })
+                        </div>
+                        <a href="/ShoppingCart/AddtoCart/@item.IDProduct  " class="card_select">Select Options</a>
+                    </div>
+                    <div class="card_men-profile">
+                        <p class="card_men-product">Burberry</p>
+                        <h3 class="card_men-producttitle">@Html.DisplayFor(model => item.NameProduct)</h3>
+                        <div class="card_men-star product_profile-star">
+                            <i class="product_icon fas fa-star"></i>
+                            <i class="product_icon fas fa-star"></i>
+                            <i class="product_icon fas fa-star"></i>
+                            <i class="product_icon fas fa-star"></i>
+                            <i class="product_icon-inactive fas fa-star"></i>
+                        </div>
+                        <p class="card_men-price">$@Html.DisplayFor(model => item.UnitPrice)</p>
+                    </div>
+                </div>
+            </div>
+        }
+
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Thông tin sản phẩm:</h5>
+                    <button style="font-size:4rem" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class=" container-fluid">
+                        <div style="margin: 25px 0;" class="product row">
+
+                            <div class="product_item col-md-6">
+                                <div class="product_img">
+                                    <div class="easyzoom">
+                                        <a href="images/zoom.jpg">
+                                            <img style="margin:0 auto;" src="https://cdn.shopify.com/s/files/1/0264/5000/1980/products/17_1024x1024.jpg?v=1569991091" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="product_note">
+                                    <i class="product_note-icon fas fa-search"></i>
+                                    <p class="product_note-item">Zoom the image with the mouse</p>
+                                </div>
+
+
+                            </div>
+                            <div class="product_item col-md-6">
+                                <div class="product_profile">
+                                    <h2 class="product_profile-heading">Ninterdum Pre De Condimento</h2>
+                                    <div class="product_profile-star">
+                                        <i class="product_icon fas fa-star"></i>
+                                        <i class="product_icon fas fa-star"></i>
+                                        <i class="product_icon fas fa-star"></i>
+                                        <i class="product_icon fas fa-star"></i>
+                                        <i class="product_icon-inactive fas fa-star"></i>
+                                        <p style="font-size:1.2rem" class="product_profile-review">1 review</p>
+                                    </div>
+
+                                    <p class="product_profile-stock">in stock</p>
+                                    <p style="font-size:1.2rem">SKU: DP1</p>
+                                    <p class="product_profile-price">$870.00</p>
+                                    <p class="product_profile-infor">
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur voluptatem reiciendis earum sint possimus ut temporibus voluptatum
+                                        similique atque debitis labore voluptates, nostrum a quasi! Architecto,
+                                        debitis atque Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, vel similique. Quaerat labore ipsam totam rerum suscipit
+                                        quae quisquam inventore..
+                                    </p>
+                                    <div class="product_profile-color">
+                                        <p style="font-size:1.2rem;font-weight: 500">Color:</p>
+                                        <img src="https://cdn.shopify.com/s/files/1/0264/5000/1980/products/12_671ef0a6-90f5-4dd3-8491-d8dd4dbeba49_1024x1024.jpg?v=1569991091" alt="">
+                                        <img src="https://cdn.shopify.com/s/files/1/0264/5000/1980/products/13_d7e06b9a-ee61-4787-a888-a4497db798a9_1024x1024.jpg?v=1569991091" alt="">
+                                    </div>
+                                    
+                                    <p style="font-size:1.2rem;font-weight: 500">Material:</p>
+                                    <div class="product_profile-material">
+                                        <p class="material-item-active material-item">Leather</p>
+                                        <p class="material-item">Strap</p>
+                                    </div>
+
+
+
+
+
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>

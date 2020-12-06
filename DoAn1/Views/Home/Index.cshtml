@@ -1,0 +1,307 @@
+﻿@model IEnumerable<DoAn1.Models.Product>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<head>
+    <!-- OWL CAROUSEL -->
+    <link href="~/Content/owl.carousel.min.css" rel="stylesheet" />
+    <link href="~/Content/owl.theme.default.min.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/30d0043b0e.js"></script>
+    <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all">
+    <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all">
+    <style>
+        .fa-star {
+            font-size: 0.8rem;
+        }
+
+        .card__cart {
+            display: none;
+            padding: 8px;
+            text-align: center;
+            background-color: black;
+        }
+
+        .card__cart-select {
+            text-transform: uppercase;
+            color: white;
+            background-color: black;
+        }
+
+            .card__cart-select:hover {
+                color: white;
+            }
+
+        .title {
+            text-transform: uppercase;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .card {
+            border: 1px solid #f5f5f5;
+            margin-top: 10px;
+            border-radius: 10px;
+            background-color: white;
+            box-shadow: 0 0 4px rgba(0,0,0,.12);
+        }
+
+            .card:hover .card__cart {
+                display: block;
+                cursor: pointer;
+                box-shadow: 0 0 8px rgba(0,0,0,.12);
+            }
+
+        .card__img {
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        .card_profile {
+            padding: 0 10px;
+        }
+
+        .card_title {
+            text-transform: uppercase;
+            font-weight: bold;
+            line-height: 23px;
+            font-size: 24px;
+            height: 46px;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+        }
+        /* 8/6/2020 CustomerReview */
+        .card-customerreview {
+            width: 420px;
+            height: 416px;
+            box-sizing: border-box;
+            border: 1px solid #e8e8e8;
+            text-align: center;
+            padding: 30px 36px;
+        }
+
+        .card-customer-link {
+            display: block;
+            margin: 10px 0;
+        }
+
+            .card-customer-link span, a {
+                font-size: 1.2rem;
+            }
+
+        .customer_icon {
+            font-size: 1.6rem;
+        }
+    </style>
+</head>
+Hello,@ViewBag.Name
+<div class="container">
+    <div class="row-duyan row">
+        <div class="col-md-4">
+            <div class=" box_watch">
+                <h2 class="animated fadeInUp wow box_watch-heading">SHOP THE COLLECTIONS</h2>
+                <p class="animated fadeInUp wow box_watch-content">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, consequatur dolores libero nihil quidem veritatis. Harum ea deserunt totam,
+                    repellat nostrum ullam fugit reiciendis molestias quisquam neque reprehenderit.
+                </p>
+                <a href=".." class="animated fadeInUp wow box_watch-link">DISCOVER</a>
+
+            </div>
+        </div>
+        <div class="col-md-8">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="boxpopular_watch">
+                        <a href="../Home/men">
+
+                            <img src="https://cdn.shopify.com/s/files/1/0264/5000/1980/collections/image-collection-1-compressor_large.jpg?v=1569935516" alt="">
+                            <h3 class="boxpopular_watch-heading">BLACKZERI</h3>
+                            <p class="boxpopular_watch-content">8 product</p>
+
+                            <button class="btn-popular">Shop now</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="boxpopular_watch">
+                        <a href="../Home/men">
+
+                            <img src="https://cdn.shopify.com/s/files/1/0264/5000/1980/collections/image-collection-1-compressor_large.jpg?v=1569935516" alt="">
+                            <h3 class="boxpopular_watch-heading">COSMOPOLIS</h3>
+                            <p class="boxpopular_watch-content">7 product</p>
+                            <button class="btn-popular">Shop now</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="boxpopular_watch">
+                        <a href="../Home/men">
+
+                            <img src="https://cdn.shopify.com/s/files/1/0264/5000/1980/collections/image-collection-3-compressor_large.jpg?v=1569935478" alt="">
+                            <h3 class="boxpopular_watch-heading">MILANCELOS</h3>
+                            <p class="boxpopular_watch-content">8 product</p>
+                            <button class="btn-popular">Shop now</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="boxpopular_watch">
+                        <a href="../BANHANG/men.html">
+
+                            <img src="https://cdn.shopify.com/s/files/1/0264/5000/1980/collections/image-collection-1-compressor_large.jpg?v=1569935516" alt="">
+                            <h3 class="boxpopular_watch-heading">BLACKZERI</h3>
+                            <p class="boxpopular_watch-content">8 product</p>
+                            <button class="btn-popular">Shop now</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+    </div>
+    <div class=" row-img row">
+        <div class="box6_2 animated fadeInUp wow delay-1 col-md-4 col-sm-6 col-xs-12">
+            <div class="boximg boximg_content ">
+
+                <h4 class="boximg_content-heading">MILANCELOS</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Perferendis, at est. Cumque omnis rem Lorem ipsum dolor sit amet consectetur,
+                    adipisicing elit. Sunt, architecto? quia!
+                </p>
+                <a href="...">Learn More</a>
+            </div>
+        </div>
+        <div class="box6_2 animated fadeInUp wow delay-2 col-md-4 col-sm-6 ">
+            <div class="boximg">
+                <img src="https://cdn.shopify.com/s/files/1/0264/5000/1980/files/2_1024x.jpg?v=1569996666" alt="">
+                <h3>New Release</h3>
+            </div>
+        </div>
+        <div class="box6_2 animated fadeInUp wow delay-3 col-md-4 col-sm-6">
+            <div class="boximg">
+                <a href="~/Home/GetTop3">
+                    <img src="https://cdn.shopify.com/s/files/1/0264/5000/1980/files/1_1024x.jpg?v=1569996689" alt="">
+                    <h3>Top 3 Cheapest </h3>
+                </a>
+                  
+               
+              
+            </div>
+        </div>
+        <div class="box6_2 animated fadeInUp wow delay-1 col-md-4 col-sm-6">
+            <div class=" boximg">
+                <img src="https://cdn.shopify.com/s/files/1/0264/5000/1980/files/3_1024x.jpg?v=1569996580" alt="">
+                <h3>Gift Packes</h3>
+            </div>
+        </div>
+        <div class="box6_2 animated fadeInUp wow delay-2 col-md-4 col-sm-6">
+            <div class=" boximg">
+                <img src="https://cdn.shopify.com/s/files/1/0264/5000/1980/files/4_1024x.jpg?v=1569996798" alt="">
+                <h3>Best Seller</h3>
+            </div>
+        </div>
+        <div class="box6_2 animated fadeInUp wow delay-3 col-md-4 col-sm-6">
+            <div class="boximg boximg_content ">
+
+                <h3 class="boximg_content-heading">MILANCELOS</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Perferendis, at est. Cumque omnis rem Lorem ipsum dolor sit amet consectetur,
+                    adipisicing elit. Sunt, architecto? quia!
+                </p>
+                <a href="...">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+
+
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <h3 class="title_card">NEW RELEASES</h3>
+        </div>
+        <div class="col-md-12">
+            <div id="team-carousel" class="owl-carousel owl-theme">
+                @foreach (var item in Model)
+                {
+                    <div class="item">
+
+                        <div class="card_home">
+                            <div class="card_men-images">
+                                <img class="card_home-img-item" src="@Url.Content(item.Images)" alt="">
+                                <p class="card_men-sold">Sold Out</p>
+                                <div class="card_men-listicon">
+                                    <i class="card_men-icon1 far fa-heart"></i>
+                                    <i class="card_men-icon2 far fa-eye"></i>
+                                    <i class="card_men-icon3 fas fa-sync-alt"></i>
+                                </div>
+                                <a href="/ShoppingCart/AddtoCart/@item.IDProduct  " class="card_select">Select Options</a>
+                            </div>
+                            <div class="card_men-profile">
+                                <p class="card_men-product">Burberry</p>
+                                <h3 class="card_men-producttitle">@Html.DisplayFor(model => item.NameProduct)</h3>
+                                <div class="card_men-star product_profile-star">
+                                    <i class="product_icon fas fa-star"></i>
+                                    <i class="product_icon fas fa-star"></i>
+                                    <i class="product_icon fas fa-star"></i>
+                                    <i class="product_icon fas fa-star"></i>
+                                    <i class="product_icon-inactive fas fa-star"></i>
+                                </div>
+                                <p class="card_men-price">$@Html.DisplayFor(model => item.UnitPrice)</p>
+                            </div>
+                        </div>
+
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+    <!-- 8/6/2020 CustomerReview -->
+    <div class="row" style="margin: 50px 0;">
+        <div class="col-md-12">
+            <h3 class="title_card">CUSTOMER REVIEWS</h3>
+            <p style="font-size:1.2rem;color:#5f5f5f;text-align: center;margin-bottom: 15px;">Nam tempus turpis at metus scelerisque placerat nulla deumantos.</p>
+        </div>
+        <div id="work-carousel" class="owl-carousel owl-theme">
+            <div class="item">
+                <div class="col-md4" style="margin:0 25px;">
+                    <div class="card-customerreview">
+                        <img style="display: block;margin:0 auto;width:112px;" src="https://cdn.shopify.com/s/files/1/0264/5000/1980/files/02_115x.jpg?v=1569996170" alt="">
+                        <div style="margin: 10px 0;" class="card_men-star product_profile-star">
+                            <i class="customer_icon product_icon fas fa-star"></i>
+                            <i class="customer_icon product_icon fas fa-star"></i>
+                            <i class="customer_icon product_icon fas fa-star"></i>
+                            <i class="customer_icon product_icon fas fa-star"></i>
+                            <i class="customer_icon product_icon fas fa-star"></i>
+                        </div>
+                        <div class="card-customer-link">
+                            <span>Purchased</span>
+                            <a href="...">Gempus Milancelos De Cosmo</a>
+                        </div>
+                        <span style="font-size:1.2rem;display: block;margin:10px 0;line-height: 22px;">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus impedit repellendus vel fugiat odio ratione
+                            laudantium ducimus dicta magnam odit excepturi explicabo, assumenda dignissimos temporibus!
+                        </span>
+                        <span style="font-size:1.4rem;font-weight: 500;border-bottom: 1px solid black;">John Doe</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</div>
+

@@ -1,0 +1,105 @@
+﻿
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WatchesShop - Trang Quản Trị</title>
+
+
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+    <link href="~/Content/style2.css" rel="stylesheet" />
+    <link href="~/Content/custom.css" rel="stylesheet" />
+    <!-- ICON -->
+
+    <script src="https://kit.fontawesome.com/30d0043b0e.js"></script>
+    <!-- FONT GOOGLE -->
+    <link href="~/Content/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: 'Nunito', sans-serif !important;
+        }
+    </style>
+</head>
+<body>
+    <div style="background-color: #f7f7f8;" class="container-fuild">
+        <div class="row" style="height:1000px">
+            <div class="col-md-2" style="padding-right:0;background-image:url(https://i.pinimg.com/originals/3c/7a/fc/3c7afc1b68c0f8cc367dd9d0f1f383de.jpg);">
+                <div class="admin__options">
+                    <ul class="list__group">
+                        <li class="list__group-item active">
+
+                            <a href="">Watches Admin</a>
+                        </li>
+                        <li class="list__group-item active2">
+                            <i class="fas fa-chart-pie"></i>
+
+                            <a href="~/Dashboard/index">Dashboard</a>
+                        </li>
+                        <li class="list__group-item">
+                            <i class="far fa-user-circle"></i>
+
+                            <a href="~/Users/Index">User profile</a>
+                        </li>
+                        <li class="list__group-item">
+                            <i class="far fa-list-alt"></i>
+
+                            <a href="~/OrderDetails/Index">Product - Order</a>
+                        </li>
+                        <li class="list__group-item">
+                            <i class="far fa-bell"></i>
+                            <a href="">Notifications</a>
+                        </li>
+                        <li class="list__group-item"><a href="">Second item</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="col-md-10">
+                <div style="justify-content:space-between" class="row navbar__admin">
+                    <div class="col-md-4 navbar__left">
+                       
+                        
+
+                        <div class="input-group" style="margin-left:18px">
+                            <input style="font-size:18px" type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                                <button class="btn btn-primary" type="button">
+                                    <i style="font-size:18px" class="fas fa-search fa-sm"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 navbar__right">
+                        @if (@Session["Email"] != null)
+                        {
+                            <a class="navbar__left-link">Hello, @Session["LastName"].ToString()</a>
+                            <a class="navbar__left-link" href="@Url.Action("LogOut", "Login")">Logout</a>
+
+                        }
+                        else
+                        {
+                            <a class="navbar__left-link">Login</a>
+                        }
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        @RenderBody()
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

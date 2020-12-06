@@ -1,0 +1,17 @@
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\Commonnn\bin\Debug\Commonnn.dll
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\Commonnn\bin\Debug\Commonnn.pdb
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\Commonnn\obj\Debug\Commonnn.csprojAssemblyReference.cache
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\Commonnn\obj\Debug\Commonnn.csproj.CoreCompileInputs.cache
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\Commonnn\obj\Debug\Commonnn.dll
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\Commonnn\obj\Debug\Commonnn.pdb
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\Commonnn\bin\Debug\Commonnn.dll
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\Commonnn\bin\Debug\Commonnn.pdb
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\Commonnn\obj\Debug\Commonnn.csproj.CoreCompileInputs.cache
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\Commonnn\obj\Debug\Commonnn.dll
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\Commonnn\obj\Debug\Commonnn.pdb
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\Commonnn\bin\Debug\Commonnn.dll
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\Commonnn\bin\Debug\Commonnn.pdb
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\Commonnn\obj\Debug\Commonnn.csproj.CoreCompileInputs.cache
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\Commonnn\obj\Debug\Commonnn.dll
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\Commonnn\obj\Debug\Commonnn.pdb
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\Commonnn\obj\Debug\Commonnn.csprojAssemblyReference.cache

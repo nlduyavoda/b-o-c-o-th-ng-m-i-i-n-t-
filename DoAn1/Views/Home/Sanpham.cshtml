@@ -1,0 +1,208 @@
+﻿@model DoAn1.Models.Product
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+
+
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+    <link href="~/Content/style.css" rel="stylesheet" />
+    <link href="~/Content/custom.css" rel="stylesheet" />
+    <!-- ICON -->
+    <script src="https://kit.fontawesome.com/30d0043b0e.js"></script>
+    <!-- FONT GOOGLE -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,700&display=swap" rel="stylesheet">
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <style>
+        .card__cart {
+            display: none;
+            padding: 8px;
+            text-align: center;
+            background-color: black;
+        }
+
+        .card__cart-select {
+            text-transform: uppercase;
+            color: white;
+            background-color: black;
+        }
+
+            .card__cart-select:hover {
+                color: white;
+            }
+
+        .title {
+            text-transform: uppercase;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .card {
+            border: 1px solid #f5f5f5;
+            margin-top: 10px;
+            border-radius: 10px;
+            background-color: white;
+            box-shadow: 0 0 4px rgba(0,0,0,.12);
+        }
+
+            .card:hover .card__cart {
+                display: block;
+                cursor: pointer;
+                box-shadow: 0 0 8px rgba(0,0,0,.12);
+            }
+
+        .card__img {
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        .card_profile {
+            padding: 0 10px;
+        }
+
+        .card_title {
+            text-transform: uppercase;
+            font-weight: bold;
+            line-height: 23px;
+            font-size: 24px;
+            height: 46px;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav style="background-color: white" class="navbar navbar-expand-lg navbar-light fixed-top ">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="../Home">
+                <img class="navbar-icon" src="https://cdn.shopify.com/s/files/1/0264/5000/1980/files/lw-logo-b.png?v=1566992556" alt="">
+            </a>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul style="align-items: center;" class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../Home">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../Home/men">Mens</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Womens</a>
+                    </li>
+
+
+
+
+                    @*<li class="nav-item active"><a class="nav-link" href="/Login/Register"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="/Login/Index"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="@Url.Action("LogOut","Login")">LogOut</a></li>*@
+                </ul>
+                <div class="navbar__right">
+                    <a href="../Login" style="color:black;" class="navbar__right-account">
+                        <span class="navbar_acc">ACCOUNT</span>
+                        <i class="navbar__right-item far fa-user"></i>
+                    </a>
+                    <a style="cursor:pointer;padding: 0;position:relative;color:black;" href="../ShoppingCart/ShowToCart">
+                        <i class="navbar__right-item fas fa-shopping-cart"></i>
+                        @Html.Action("BagCart", "ShoppingCart")
+                    </a>
+
+
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class=" container-fluid">
+        <div class="product row">
+
+            <div class="product_item col-md-6">
+                <div class="product_img">
+                    <img style="margin:0 auto;width:450px" src="@Url.Content(Model.Images)" alt="">
+                </div>
+                <div class="product_note">
+                    <i class="product_note-icon fas fa-search"></i>
+                    <p class="product_note-item">Zoom the image with the mouse</p>
+                </div>
+
+
+            </div>
+            <div class="product_item col-md-6">
+                <div class="product_profile">
+                    <h2 class="product_profile-heading"> @Html.DisplayFor(model => model.NameProduct)</h2>
+                    <div style="font-size:14px" class="product_profile-star">
+                        <i class="product_icon fas fa-star"></i>
+                        <i class="product_icon fas fa-star"></i>
+                        <i class="product_icon fas fa-star"></i>
+                        <i class="product_icon fas fa-star"></i>
+                        <i class="product_icon-inactive fas fa-star"></i>
+                        <p class="product_profile-review">1 review</p>
+                    </div>
+
+                    <p class="product_profile-stock">in stock</p>
+                    <p style="font-size:12px">SKU: DP1</p>
+                    <p class="product_profile-price">$@Html.DisplayFor(model => model.UnitPrice)</p>
+                    <p class="product_profile-infor">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur voluptatem reiciendis earum sint possimus ut temporibus voluptatum
+                        similique atque debitis labore voluptates, nostrum a quasi! Architecto,
+                        debitis atque Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, vel similique. Quaerat labore ipsam totam rerum suscipit
+                        quae quisquam inventore..
+                    </p>
+                              
+                    <p style="font-size:1.2rem;font-weight: 500">Material:</p>
+                    <div class="product_profile-material">
+                        <p class="material-item-active material-item">Leather</p>
+                        <p class="material-item">Strap</p>
+                    </div>
+                    <p class="product_profile-quantity" style="font-size:1.2rem;font-weight: 500">Quantity:</p>
+                    <p style="font-size:1.2rem;display:inline-block" class="product_profile-subtotal">Subtotal: </p>
+                    <p style="font-weight: 700;display: inline-block;font-size: 1.2rem;letter-spacing: 0.2px;">$870.00</p>
+                    <button class="product_profile-btn" style="display:block">Add to cart</button>
+                    <button class="product_profile-btn-white" style="display:block">Buy it now</button>
+                    <div class="product_support">
+                        <div class="product_support-item">
+                            <i class="sp_item-icon fas fa-globe-americas"></i>
+                            <p class="sp_item-content">Free Shipping World Wide</p>
+                        </div>
+                        <div class="product_support-item">
+                            <i class="sp_item-icon fas fa-undo"></i>
+                            <p class="sp_item-content">Free in-store return</p>
+                        </div>
+                        <div class="product_support-item">
+                            <i class="sp_item-icon fas fa-shield-alt"></i>
+                            <p class="sp_item-content">Secure shopping guarantee</p>
+                        </div>
+                        <div class="product_support-item">
+                            <i class="sp_item-icon fas fa-globe-americas"></i>
+                            <p class="sp_item-content">24 month</p>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

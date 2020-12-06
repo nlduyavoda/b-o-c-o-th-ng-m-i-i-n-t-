@@ -1,0 +1,4 @@
+﻿@model DoAn1.Models.Category
+
+@Html.DropDownListFor(model => model.IDCategory, new SelectList(Model.CateCollection, "IDCategory", "NameCategory", "--Select--"))
+

@@ -1,0 +1,98 @@
+﻿@model DoAn1.Models.Product
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Details</h2>
+<head>
+    <style>
+        dt {
+            font-size:14px;
+        }
+        dd {
+            font-size:12px;
+        }
+    </style>
+</head>
+<div>
+    <h4>Product</h4>
+    <hr />
+    <div class="container">
+        <div class="row" style="background-color: white;border: 1px solid #f1f1f1;border-radius: 6px;padding: 10px 10px;">
+            <div class="col-md-6" style="display: flex; align-items: center;">
+                <img src="@Url.Content(Model.Images)" style="width:300px;margin: 0 auto;" />
+            </div>
+            <div class="col-md-6">
+                <dl class="dl-horizontal">
+                    <dt>
+                        @Html.DisplayNameFor(model => model.IDProduct)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.IDProduct)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.NameProduct)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.NameProduct)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.UnitPrice)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.UnitPrice)
+                    </dd>
+
+
+                    <dd>
+                        @Html.DisplayFor(model => model.Images)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.ProductDate)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.ProductDate)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.Available)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.Available)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.IDCategory)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.IDCategory)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.Descriptions)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.Descriptions)
+                    </dd>
+
+                </dl>
+            </div>
+        </div>
+    </div>
+   
+</div>
+<a href="../Product" class="btn btn-primary" style="margin:10px 0;">
+    Back to list
+</a>

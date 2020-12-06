@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+
+
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+    <link href="~/Content/style.css" rel="stylesheet" />
+    <link href="~/Content/custom.css" rel="stylesheet" />
+    <!-- ICON -->
+    <script src="https://kit.fontawesome.com/30d0043b0e.js"></script>
+    <!-- FONT GOOGLE -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,700&display=swap" rel="stylesheet">
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <style>
+        .navbar__right {
+            display: flex;
+            margin-right: 2%;
+        }
+
+        .navbar__right-item {
+            font-size: 2rem;
+        }
+
+        .navbar__right-account {
+            display: flex;
+            align-items: center;
+            margin-right: 14px;
+        }
+
+        .navbar_acc {
+            font-size: 1.2rem;
+            font-weight: 500;
+            margin-right: 8px;
+        }
+
+        .fa-shopping-cart {
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav style="background-color: white" class="navbar navbar-expand-lg navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="~/Home">
+                <img class="navbar-icon" src="https://cdn.shopify.com/s/files/1/0264/5000/1980/files/lw-logo-b.png?v=1566992556" alt="">
+            </a>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul style="align-items: center;" class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="~/index">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../men">Mens</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Womens</a>
+                    </li>
+
+
+
+
+                    @*<li class="nav-item active"><a class="nav-link" href="/Login/Register"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="/Login/Index"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="@Url.Action("LogOut","Login")">LogOut</a></li>*@
+                </ul>
+                <div class="navbar__right">
+                    <a href="../Login" style="color:black;" class="navbar__right-account">
+                        <span class="navbar_acc">ACCOUNT</span>
+                        <i class="navbar__right-item far fa-user"></i>
+                    </a>
+                    <a style="cursor:pointer;padding: 0;position:relative;color:black;" href="../ShoppingCart/ShowToCart">
+                        <i class="navbar__right-item fas fa-shopping-cart"></i>
+                        @Html.Action("BagCart", "ShoppingCart")
+                    </a>
+
+
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container" style="margin:50px">
+        @RenderBody()
+    </div>
+    <div style="padding: 0 0;" class="container-fluid">
+        <div class="navbar-footer row">
+            <div class="col-md-3 ">
+                <div class="navbar-footer-item">
+                    <i class="navbar_footer-icon far fa-paper-plane"></i>
+                    <p>Free shipping worldwide</p>
+                </div>
+            </div>
+            <div class="col-md-3 d-none d-md-block">
+                <div class="navbar_footer-icon navbar-footer-item">
+                    <i class="navbar_footer-icon fas fa-redo"></i>
+                    <p>Free in-store return</p>
+                </div>
+            </div>
+            <div class="col-md-3 d-none d-md-block">
+                <div class="navbar-footer-item">
+                    <i class="navbar_footer-icon fab fa-airbnb"></i>
+                    <p>Genuine product guarantee</p>
+                </div>
+            </div>
+            <div class="col-md-3 d-none d-md-block">
+                <div class="navbar-footer-item">
+                    <i class="navbar_footer-icon fas fa-chalkboard"></i>
+                    <p>Secure shopping guarantee</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="box_footer">
+                        <h3 class="footer-heading">CUSTOMER SERVICE</h3>
+                        <p class="footer-content">
+                            685 Market Street, San Francisco,
+                            CA 94105, United States
+                        </p>
+                        <p>+0123 456 7890</p>
+                        <p>support@halothemes.com</p>
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="box_footer">
+                        <h3 class="footer-heading">SHOP</h3>
+                        <p class="footer-content">New In</p>
+                        <p>Mens</p>
+                        <p>sWomens</p>
+                        <p>Jewelry</p>
+                        <p>Accessories</p>
+                        <p>Brands</p>
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="box_footer">
+                        <h3 class="footer-heading">INFORMATION</h3>
+                        <p>Search Terms</p>
+                        <p>Advanced Search</p>
+                        <p>Orders and Returns</p>
+                        <p>Contact Us</p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+</body>
+</html>

@@ -1,0 +1,429 @@
+C:\Users\sasukeango\Desktop\New folder\DoAn1\DoAn1\bin\ApplicationInsights.config
+C:\Users\sasukeango\Desktop\New folder\DoAn1\DoAn1\bin\roslyn\csc.exe
+C:\Users\sasukeango\Desktop\New folder\DoAn1\DoAn1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\sasukeango\Desktop\New folder\DoAn1\DoAn1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\sasukeango\Desktop\New folder\DoAn1\DoAn1\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\sasukeango\Desktop\New folder\DoAn1\DoAn1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\sasukeango\Desktop\New folder\DoAn1\DoAn1\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\sasukeango\Desktop\New folder\DoAn1\DoAn1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\sasukeango\Desktop\New folder\DoAn1\DoAn1\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\sasukeango\Desktop\New folder\DoAn1\DoAn1\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\sasukeango\Desktop\New folder\DoAn1\DoAn1\bin\roslyn\vbc.exe
+C:\Users\sasukeango\Desktop\New folder\DoAn1\DoAn1\bin\roslyn\VBCSCompiler.exe
+C:\Users\sasukeango\Desktop\New folder\DoAn1\DoAn1\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\sasukeango\Desktop\New folder\DoAn1\DoAn1\bin\DoAn1.dll.config
+C:\Users\sasukeango\Desktop\New folder\DoAn1\DoAn1\bin\DoAn1.dll
+C:\Users\sasukeango\Desktop\New folder\DoAn1\DoAn1\bin\DoAn1.pdb
+C:\Users\sasukeango\Desktop\New folder\DoAn1\DoAn1\bin\EntityFramework.dll
+C:\Users\sasukeango\Desktop\New folder\DoAn1\DoAn1\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\sasukeango\Desktop\New folder\DoAn1\DoAn1\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\sasukeango\Desktop\New folder\DoAn1\DoAn1\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\sasukeango\Desktop\New folder\DoAn1\DoAn1\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\sasukeango\Desktop\New folder\DoAn1\DoAn1\bin\Microsoft.AI.Web.dll
+C:\Users\sasukeango\Desktop\New folder\DoAn1\DoAn1\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\sasukeango\Desktop\New folder\DoAn1\DoAn1\bin\Microsoft.ApplicationInsights.dll
+C:\Users\sasukeango\Desktop\New folder\DoAn1\DoAn1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\sasukeango\Desktop\New folder\DoAn1\DoAn1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\sasukeango\Desktop\New folder\DoAn1\DoAn1\bin\System.Web.Helpers.dll
+C:\Users\sasukeango\Desktop\New folder\DoAn1\DoAn1\bin\System.Web.Mvc.dll
+C:\Users\sasukeango\Desktop\New folder\DoAn1\DoAn1\bin\System.Web.Razor.dll
+C:\Users\sasukeango\Desktop\New folder\DoAn1\DoAn1\bin\System.Web.Webpages.Deployment.dll
+C:\Users\sasukeango\Desktop\New folder\DoAn1\DoAn1\bin\System.Web.Webpages.dll
+C:\Users\sasukeango\Desktop\New folder\DoAn1\DoAn1\bin\System.Web.Webpages.Razor.dll
+C:\Users\sasukeango\Desktop\New folder\DoAn1\DoAn1\bin\EntityFramework.xml
+C:\Users\sasukeango\Desktop\New folder\DoAn1\DoAn1\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\sasukeango\Desktop\New folder\DoAn1\DoAn1\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\sasukeango\Desktop\New folder\DoAn1\DoAn1\bin\Microsoft.AI.Web.xml
+C:\Users\sasukeango\Desktop\New folder\DoAn1\DoAn1\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\sasukeango\Desktop\New folder\DoAn1\DoAn1\bin\Microsoft.ApplicationInsights.xml
+C:\Users\sasukeango\Desktop\New folder\DoAn1\DoAn1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\sasukeango\Desktop\New folder\DoAn1\DoAn1\bin\System.Web.Razor.xml
+C:\Users\sasukeango\Desktop\New folder\DoAn1\DoAn1\bin\System.Web.Webpages.xml
+C:\Users\sasukeango\Desktop\New folder\DoAn1\DoAn1\bin\System.Web.Webpages.Deployment.xml
+C:\Users\sasukeango\Desktop\New folder\DoAn1\DoAn1\bin\System.Web.Webpages.Razor.xml
+C:\Users\sasukeango\Desktop\New folder\DoAn1\DoAn1\bin\System.Web.Helpers.xml
+C:\Users\sasukeango\Desktop\New folder\DoAn1\DoAn1\bin\System.Web.Mvc.xml
+C:\Users\sasukeango\Desktop\New folder\DoAn1\DoAn1\obj\Debug\DoAn1.dll
+C:\Users\sasukeango\Desktop\New folder\DoAn1\DoAn1\obj\Debug\DoAn1.pdb
+C:\Users\sasukeango\Desktop\New folder\DoAn1\DoAn1\obj\Debug\DoAn1.csprojResolveAssemblyReference.cache
+C:\Users\Win 10\Desktop\New folder (2)\DoAn1\DoAn1\bin\ApplicationInsights.config
+C:\Users\Win 10\Desktop\New folder (2)\DoAn1\DoAn1\bin\roslyn\csc.exe
+C:\Users\Win 10\Desktop\New folder (2)\DoAn1\DoAn1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Win 10\Desktop\New folder (2)\DoAn1\DoAn1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Win 10\Desktop\New folder (2)\DoAn1\DoAn1\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Win 10\Desktop\New folder (2)\DoAn1\DoAn1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Win 10\Desktop\New folder (2)\DoAn1\DoAn1\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Win 10\Desktop\New folder (2)\DoAn1\DoAn1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Win 10\Desktop\New folder (2)\DoAn1\DoAn1\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Win 10\Desktop\New folder (2)\DoAn1\DoAn1\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Win 10\Desktop\New folder (2)\DoAn1\DoAn1\bin\roslyn\vbc.exe
+C:\Users\Win 10\Desktop\New folder (2)\DoAn1\DoAn1\bin\roslyn\VBCSCompiler.exe
+C:\Users\Win 10\Desktop\New folder (2)\DoAn1\DoAn1\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Win 10\Desktop\New folder (2)\DoAn1\DoAn1\bin\DoAn1.dll.config
+C:\Users\Win 10\Desktop\New folder (2)\DoAn1\DoAn1\bin\DoAn1.dll
+C:\Users\Win 10\Desktop\New folder (2)\DoAn1\DoAn1\bin\DoAn1.pdb
+C:\Users\Win 10\Desktop\New folder (2)\DoAn1\DoAn1\bin\EntityFramework.dll
+C:\Users\Win 10\Desktop\New folder (2)\DoAn1\DoAn1\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Win 10\Desktop\New folder (2)\DoAn1\DoAn1\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Win 10\Desktop\New folder (2)\DoAn1\DoAn1\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Win 10\Desktop\New folder (2)\DoAn1\DoAn1\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Win 10\Desktop\New folder (2)\DoAn1\DoAn1\bin\Microsoft.AI.Web.dll
+C:\Users\Win 10\Desktop\New folder (2)\DoAn1\DoAn1\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Win 10\Desktop\New folder (2)\DoAn1\DoAn1\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Win 10\Desktop\New folder (2)\DoAn1\DoAn1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Win 10\Desktop\New folder (2)\DoAn1\DoAn1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Win 10\Desktop\New folder (2)\DoAn1\DoAn1\bin\System.Web.Helpers.dll
+C:\Users\Win 10\Desktop\New folder (2)\DoAn1\DoAn1\bin\System.Web.Mvc.dll
+C:\Users\Win 10\Desktop\New folder (2)\DoAn1\DoAn1\bin\System.Web.Razor.dll
+C:\Users\Win 10\Desktop\New folder (2)\DoAn1\DoAn1\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Win 10\Desktop\New folder (2)\DoAn1\DoAn1\bin\System.Web.Webpages.dll
+C:\Users\Win 10\Desktop\New folder (2)\DoAn1\DoAn1\bin\System.Web.Webpages.Razor.dll
+C:\Users\Win 10\Desktop\New folder (2)\DoAn1\DoAn1\bin\EntityFramework.xml
+C:\Users\Win 10\Desktop\New folder (2)\DoAn1\DoAn1\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Win 10\Desktop\New folder (2)\DoAn1\DoAn1\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Win 10\Desktop\New folder (2)\DoAn1\DoAn1\bin\Microsoft.AI.Web.xml
+C:\Users\Win 10\Desktop\New folder (2)\DoAn1\DoAn1\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Win 10\Desktop\New folder (2)\DoAn1\DoAn1\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Win 10\Desktop\New folder (2)\DoAn1\DoAn1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Win 10\Desktop\New folder (2)\DoAn1\DoAn1\bin\System.Web.Razor.xml
+C:\Users\Win 10\Desktop\New folder (2)\DoAn1\DoAn1\bin\System.Web.Webpages.xml
+C:\Users\Win 10\Desktop\New folder (2)\DoAn1\DoAn1\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Win 10\Desktop\New folder (2)\DoAn1\DoAn1\bin\System.Web.Webpages.Razor.xml
+C:\Users\Win 10\Desktop\New folder (2)\DoAn1\DoAn1\bin\System.Web.Helpers.xml
+C:\Users\Win 10\Desktop\New folder (2)\DoAn1\DoAn1\bin\System.Web.Mvc.xml
+C:\Users\Win 10\Desktop\New folder (2)\DoAn1\DoAn1\obj\Debug\DoAn1.csprojAssemblyReference.cache
+C:\Users\Win 10\Desktop\New folder (2)\DoAn1\DoAn1\obj\Debug\DoAn1.csproj.CoreCompileInputs.cache
+C:\Users\Win 10\Desktop\New folder (2)\DoAn1\DoAn1\obj\Debug\DoAn1.csproj.CopyComplete
+C:\Users\Win 10\Desktop\New folder (2)\DoAn1\DoAn1\obj\Debug\DoAn1.dll
+C:\Users\Win 10\Desktop\New folder (2)\DoAn1\DoAn1\obj\Debug\DoAn1.pdb
+C:\Users\Win 10\Desktop\DoAn1\9-6-2020\DoAn1\DoAn1\bin\ApplicationInsights.config
+C:\Users\Win 10\Desktop\DoAn1\9-6-2020\DoAn1\DoAn1\bin\roslyn\csc.exe
+C:\Users\Win 10\Desktop\DoAn1\9-6-2020\DoAn1\DoAn1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Win 10\Desktop\DoAn1\9-6-2020\DoAn1\DoAn1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Win 10\Desktop\DoAn1\9-6-2020\DoAn1\DoAn1\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Win 10\Desktop\DoAn1\9-6-2020\DoAn1\DoAn1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Win 10\Desktop\DoAn1\9-6-2020\DoAn1\DoAn1\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Win 10\Desktop\DoAn1\9-6-2020\DoAn1\DoAn1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Win 10\Desktop\DoAn1\9-6-2020\DoAn1\DoAn1\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Win 10\Desktop\DoAn1\9-6-2020\DoAn1\DoAn1\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Win 10\Desktop\DoAn1\9-6-2020\DoAn1\DoAn1\bin\roslyn\vbc.exe
+C:\Users\Win 10\Desktop\DoAn1\9-6-2020\DoAn1\DoAn1\bin\roslyn\VBCSCompiler.exe
+C:\Users\Win 10\Desktop\DoAn1\9-6-2020\DoAn1\DoAn1\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Win 10\Desktop\DoAn1\9-6-2020\DoAn1\DoAn1\bin\DoAn1.dll.config
+C:\Users\Win 10\Desktop\DoAn1\9-6-2020\DoAn1\DoAn1\bin\DoAn1.dll
+C:\Users\Win 10\Desktop\DoAn1\9-6-2020\DoAn1\DoAn1\bin\DoAn1.pdb
+C:\Users\Win 10\Desktop\DoAn1\9-6-2020\DoAn1\DoAn1\bin\EntityFramework.dll
+C:\Users\Win 10\Desktop\DoAn1\9-6-2020\DoAn1\DoAn1\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Win 10\Desktop\DoAn1\9-6-2020\DoAn1\DoAn1\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Win 10\Desktop\DoAn1\9-6-2020\DoAn1\DoAn1\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Win 10\Desktop\DoAn1\9-6-2020\DoAn1\DoAn1\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Win 10\Desktop\DoAn1\9-6-2020\DoAn1\DoAn1\bin\Microsoft.AI.Web.dll
+C:\Users\Win 10\Desktop\DoAn1\9-6-2020\DoAn1\DoAn1\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Win 10\Desktop\DoAn1\9-6-2020\DoAn1\DoAn1\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Win 10\Desktop\DoAn1\9-6-2020\DoAn1\DoAn1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Win 10\Desktop\DoAn1\9-6-2020\DoAn1\DoAn1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Win 10\Desktop\DoAn1\9-6-2020\DoAn1\DoAn1\bin\System.Web.Helpers.dll
+C:\Users\Win 10\Desktop\DoAn1\9-6-2020\DoAn1\DoAn1\bin\System.Web.Mvc.dll
+C:\Users\Win 10\Desktop\DoAn1\9-6-2020\DoAn1\DoAn1\bin\System.Web.Razor.dll
+C:\Users\Win 10\Desktop\DoAn1\9-6-2020\DoAn1\DoAn1\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Win 10\Desktop\DoAn1\9-6-2020\DoAn1\DoAn1\bin\System.Web.Webpages.dll
+C:\Users\Win 10\Desktop\DoAn1\9-6-2020\DoAn1\DoAn1\bin\System.Web.Webpages.Razor.dll
+C:\Users\Win 10\Desktop\DoAn1\9-6-2020\DoAn1\DoAn1\bin\EntityFramework.xml
+C:\Users\Win 10\Desktop\DoAn1\9-6-2020\DoAn1\DoAn1\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Win 10\Desktop\DoAn1\9-6-2020\DoAn1\DoAn1\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Win 10\Desktop\DoAn1\9-6-2020\DoAn1\DoAn1\bin\Microsoft.AI.Web.xml
+C:\Users\Win 10\Desktop\DoAn1\9-6-2020\DoAn1\DoAn1\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Win 10\Desktop\DoAn1\9-6-2020\DoAn1\DoAn1\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Win 10\Desktop\DoAn1\9-6-2020\DoAn1\DoAn1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Win 10\Desktop\DoAn1\9-6-2020\DoAn1\DoAn1\bin\System.Web.Razor.xml
+C:\Users\Win 10\Desktop\DoAn1\9-6-2020\DoAn1\DoAn1\bin\System.Web.Webpages.xml
+C:\Users\Win 10\Desktop\DoAn1\9-6-2020\DoAn1\DoAn1\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Win 10\Desktop\DoAn1\9-6-2020\DoAn1\DoAn1\bin\System.Web.Webpages.Razor.xml
+C:\Users\Win 10\Desktop\DoAn1\9-6-2020\DoAn1\DoAn1\bin\System.Web.Helpers.xml
+C:\Users\Win 10\Desktop\DoAn1\9-6-2020\DoAn1\DoAn1\bin\System.Web.Mvc.xml
+C:\Users\Win 10\Desktop\DoAn1\9-6-2020\DoAn1\DoAn1\obj\Debug\DoAn1.csprojAssemblyReference.cache
+C:\Users\Win 10\Desktop\DoAn1\9-6-2020\DoAn1\DoAn1\obj\Debug\DoAn1.csproj.CoreCompileInputs.cache
+C:\Users\Win 10\Desktop\DoAn1\9-6-2020\DoAn1\DoAn1\obj\Debug\DoAn1.csproj.CopyComplete
+C:\Users\Win 10\Desktop\DoAn1\9-6-2020\DoAn1\DoAn1\obj\Debug\DoAn1.dll
+C:\Users\Win 10\Desktop\DoAn1\9-6-2020\DoAn1\DoAn1\obj\Debug\DoAn1.pdb
+C:\Users\Win 10\Desktop\DoAn1\10-6\9-6-2020\DoAn1\DoAn1\obj\Debug\DoAn1.csprojAssemblyReference.cache
+C:\Users\Win 10\Desktop\DoAn1\10-6\9-6-2020\DoAn1\DoAn1\obj\Debug\DoAn1.csproj.CoreCompileInputs.cache
+C:\Users\Win 10\Desktop\DoAn1\10-6\9-6-2020\DoAn1\DoAn1\obj\Debug\DoAn1.dll
+C:\Users\Win 10\Desktop\DoAn1\10-6\9-6-2020\DoAn1\DoAn1\obj\Debug\DoAn1.pdb
+C:\Users\Win 10\Desktop\DoAn1\10-6\9-6-2020\DoAn1\DoAn1\bin\ApplicationInsights.config
+C:\Users\Win 10\Desktop\DoAn1\10-6\9-6-2020\DoAn1\DoAn1\bin\roslyn\csc.exe
+C:\Users\Win 10\Desktop\DoAn1\10-6\9-6-2020\DoAn1\DoAn1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Win 10\Desktop\DoAn1\10-6\9-6-2020\DoAn1\DoAn1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Win 10\Desktop\DoAn1\10-6\9-6-2020\DoAn1\DoAn1\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Win 10\Desktop\DoAn1\10-6\9-6-2020\DoAn1\DoAn1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Win 10\Desktop\DoAn1\10-6\9-6-2020\DoAn1\DoAn1\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Win 10\Desktop\DoAn1\10-6\9-6-2020\DoAn1\DoAn1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Win 10\Desktop\DoAn1\10-6\9-6-2020\DoAn1\DoAn1\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Win 10\Desktop\DoAn1\10-6\9-6-2020\DoAn1\DoAn1\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Win 10\Desktop\DoAn1\10-6\9-6-2020\DoAn1\DoAn1\bin\roslyn\vbc.exe
+C:\Users\Win 10\Desktop\DoAn1\10-6\9-6-2020\DoAn1\DoAn1\bin\roslyn\VBCSCompiler.exe
+C:\Users\Win 10\Desktop\DoAn1\10-6\9-6-2020\DoAn1\DoAn1\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Win 10\Desktop\DoAn1\10-6\9-6-2020\DoAn1\DoAn1\bin\DoAn1.dll.config
+C:\Users\Win 10\Desktop\DoAn1\10-6\9-6-2020\DoAn1\DoAn1\bin\DoAn1.dll
+C:\Users\Win 10\Desktop\DoAn1\10-6\9-6-2020\DoAn1\DoAn1\bin\DoAn1.pdb
+C:\Users\Win 10\Desktop\DoAn1\10-6\9-6-2020\DoAn1\DoAn1\bin\EntityFramework.dll
+C:\Users\Win 10\Desktop\DoAn1\10-6\9-6-2020\DoAn1\DoAn1\bin\EntityFramework.SqlServer.dll
+C:\Users\Win 10\Desktop\DoAn1\10-6\9-6-2020\DoAn1\DoAn1\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Win 10\Desktop\DoAn1\10-6\9-6-2020\DoAn1\DoAn1\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Win 10\Desktop\DoAn1\10-6\9-6-2020\DoAn1\DoAn1\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Win 10\Desktop\DoAn1\10-6\9-6-2020\DoAn1\DoAn1\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Win 10\Desktop\DoAn1\10-6\9-6-2020\DoAn1\DoAn1\bin\Microsoft.AI.Web.dll
+C:\Users\Win 10\Desktop\DoAn1\10-6\9-6-2020\DoAn1\DoAn1\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Win 10\Desktop\DoAn1\10-6\9-6-2020\DoAn1\DoAn1\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Win 10\Desktop\DoAn1\10-6\9-6-2020\DoAn1\DoAn1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Win 10\Desktop\DoAn1\10-6\9-6-2020\DoAn1\DoAn1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Win 10\Desktop\DoAn1\10-6\9-6-2020\DoAn1\DoAn1\bin\System.Web.Helpers.dll
+C:\Users\Win 10\Desktop\DoAn1\10-6\9-6-2020\DoAn1\DoAn1\bin\System.Web.Mvc.dll
+C:\Users\Win 10\Desktop\DoAn1\10-6\9-6-2020\DoAn1\DoAn1\bin\System.Web.Razor.dll
+C:\Users\Win 10\Desktop\DoAn1\10-6\9-6-2020\DoAn1\DoAn1\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Win 10\Desktop\DoAn1\10-6\9-6-2020\DoAn1\DoAn1\bin\System.Web.Webpages.dll
+C:\Users\Win 10\Desktop\DoAn1\10-6\9-6-2020\DoAn1\DoAn1\bin\System.Web.Webpages.Razor.dll
+C:\Users\Win 10\Desktop\DoAn1\10-6\9-6-2020\DoAn1\DoAn1\bin\EntityFramework.xml
+C:\Users\Win 10\Desktop\DoAn1\10-6\9-6-2020\DoAn1\DoAn1\bin\EntityFramework.SqlServer.xml
+C:\Users\Win 10\Desktop\DoAn1\10-6\9-6-2020\DoAn1\DoAn1\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Win 10\Desktop\DoAn1\10-6\9-6-2020\DoAn1\DoAn1\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Win 10\Desktop\DoAn1\10-6\9-6-2020\DoAn1\DoAn1\bin\Microsoft.AI.Web.xml
+C:\Users\Win 10\Desktop\DoAn1\10-6\9-6-2020\DoAn1\DoAn1\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Win 10\Desktop\DoAn1\10-6\9-6-2020\DoAn1\DoAn1\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Win 10\Desktop\DoAn1\10-6\9-6-2020\DoAn1\DoAn1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Win 10\Desktop\DoAn1\10-6\9-6-2020\DoAn1\DoAn1\bin\System.Web.Razor.xml
+C:\Users\Win 10\Desktop\DoAn1\10-6\9-6-2020\DoAn1\DoAn1\bin\System.Web.Webpages.xml
+C:\Users\Win 10\Desktop\DoAn1\10-6\9-6-2020\DoAn1\DoAn1\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Win 10\Desktop\DoAn1\10-6\9-6-2020\DoAn1\DoAn1\bin\System.Web.Webpages.Razor.xml
+C:\Users\Win 10\Desktop\DoAn1\10-6\9-6-2020\DoAn1\DoAn1\bin\System.Web.Helpers.xml
+C:\Users\Win 10\Desktop\DoAn1\10-6\9-6-2020\DoAn1\DoAn1\bin\System.Web.Mvc.xml
+C:\Users\Win 10\Desktop\DoAn1\10-6\9-6-2020\DoAn1\DoAn1\obj\Debug\DoAn1.csproj.CopyComplete
+C:\Users\Win 10\Desktop\DoAn1\ggggg\DoAn1\DoAn1\bin\ApplicationInsights.config
+C:\Users\Win 10\Desktop\DoAn1\ggggg\DoAn1\DoAn1\bin\roslyn\csc.exe
+C:\Users\Win 10\Desktop\DoAn1\ggggg\DoAn1\DoAn1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Win 10\Desktop\DoAn1\ggggg\DoAn1\DoAn1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Win 10\Desktop\DoAn1\ggggg\DoAn1\DoAn1\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Win 10\Desktop\DoAn1\ggggg\DoAn1\DoAn1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Win 10\Desktop\DoAn1\ggggg\DoAn1\DoAn1\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Win 10\Desktop\DoAn1\ggggg\DoAn1\DoAn1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Win 10\Desktop\DoAn1\ggggg\DoAn1\DoAn1\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Win 10\Desktop\DoAn1\ggggg\DoAn1\DoAn1\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Win 10\Desktop\DoAn1\ggggg\DoAn1\DoAn1\bin\roslyn\vbc.exe
+C:\Users\Win 10\Desktop\DoAn1\ggggg\DoAn1\DoAn1\bin\roslyn\VBCSCompiler.exe
+C:\Users\Win 10\Desktop\DoAn1\ggggg\DoAn1\DoAn1\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Win 10\Desktop\DoAn1\ggggg\DoAn1\DoAn1\bin\DoAn1.dll.config
+C:\Users\Win 10\Desktop\DoAn1\ggggg\DoAn1\DoAn1\bin\DoAn1.dll
+C:\Users\Win 10\Desktop\DoAn1\ggggg\DoAn1\DoAn1\bin\DoAn1.pdb
+C:\Users\Win 10\Desktop\DoAn1\ggggg\DoAn1\DoAn1\bin\EntityFramework.dll
+C:\Users\Win 10\Desktop\DoAn1\ggggg\DoAn1\DoAn1\bin\EntityFramework.SqlServer.dll
+C:\Users\Win 10\Desktop\DoAn1\ggggg\DoAn1\DoAn1\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Win 10\Desktop\DoAn1\ggggg\DoAn1\DoAn1\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Win 10\Desktop\DoAn1\ggggg\DoAn1\DoAn1\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Win 10\Desktop\DoAn1\ggggg\DoAn1\DoAn1\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Win 10\Desktop\DoAn1\ggggg\DoAn1\DoAn1\bin\Microsoft.AI.Web.dll
+C:\Users\Win 10\Desktop\DoAn1\ggggg\DoAn1\DoAn1\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Win 10\Desktop\DoAn1\ggggg\DoAn1\DoAn1\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Win 10\Desktop\DoAn1\ggggg\DoAn1\DoAn1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Win 10\Desktop\DoAn1\ggggg\DoAn1\DoAn1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Win 10\Desktop\DoAn1\ggggg\DoAn1\DoAn1\bin\System.Web.Helpers.dll
+C:\Users\Win 10\Desktop\DoAn1\ggggg\DoAn1\DoAn1\bin\System.Web.Mvc.dll
+C:\Users\Win 10\Desktop\DoAn1\ggggg\DoAn1\DoAn1\bin\System.Web.Razor.dll
+C:\Users\Win 10\Desktop\DoAn1\ggggg\DoAn1\DoAn1\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Win 10\Desktop\DoAn1\ggggg\DoAn1\DoAn1\bin\System.Web.Webpages.dll
+C:\Users\Win 10\Desktop\DoAn1\ggggg\DoAn1\DoAn1\bin\System.Web.Webpages.Razor.dll
+C:\Users\Win 10\Desktop\DoAn1\ggggg\DoAn1\DoAn1\bin\EntityFramework.xml
+C:\Users\Win 10\Desktop\DoAn1\ggggg\DoAn1\DoAn1\bin\EntityFramework.SqlServer.xml
+C:\Users\Win 10\Desktop\DoAn1\ggggg\DoAn1\DoAn1\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Win 10\Desktop\DoAn1\ggggg\DoAn1\DoAn1\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Win 10\Desktop\DoAn1\ggggg\DoAn1\DoAn1\bin\Microsoft.AI.Web.xml
+C:\Users\Win 10\Desktop\DoAn1\ggggg\DoAn1\DoAn1\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Win 10\Desktop\DoAn1\ggggg\DoAn1\DoAn1\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Win 10\Desktop\DoAn1\ggggg\DoAn1\DoAn1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Win 10\Desktop\DoAn1\ggggg\DoAn1\DoAn1\bin\System.Web.Razor.xml
+C:\Users\Win 10\Desktop\DoAn1\ggggg\DoAn1\DoAn1\bin\System.Web.Webpages.xml
+C:\Users\Win 10\Desktop\DoAn1\ggggg\DoAn1\DoAn1\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Win 10\Desktop\DoAn1\ggggg\DoAn1\DoAn1\bin\System.Web.Webpages.Razor.xml
+C:\Users\Win 10\Desktop\DoAn1\ggggg\DoAn1\DoAn1\bin\System.Web.Helpers.xml
+C:\Users\Win 10\Desktop\DoAn1\ggggg\DoAn1\DoAn1\bin\System.Web.Mvc.xml
+C:\Users\Win 10\Desktop\DoAn1\ggggg\DoAn1\DoAn1\obj\Debug\DoAn1.csprojAssemblyReference.cache
+C:\Users\Win 10\Desktop\DoAn1\ggggg\DoAn1\DoAn1\obj\Debug\DoAn1.csproj.CoreCompileInputs.cache
+C:\Users\Win 10\Desktop\DoAn1\ggggg\DoAn1\DoAn1\obj\Debug\DoAn1.csproj.CopyComplete
+C:\Users\Win 10\Desktop\DoAn1\ggggg\DoAn1\DoAn1\obj\Debug\DoAn1.dll
+C:\Users\Win 10\Desktop\DoAn1\ggggg\DoAn1\DoAn1\obj\Debug\DoAn1.pdb
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\bin\ApplicationInsights.config
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\bin\roslyn\csc.exe
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\bin\roslyn\vbc.exe
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\bin\roslyn\VBCSCompiler.exe
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\bin\DoAn1.dll.config
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\bin\DoAn1.dll
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\bin\DoAn1.pdb
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\bin\EntityFramework.dll
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\bin\EntityFramework.SqlServer.dll
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\bin\Microsoft.AI.Web.dll
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\bin\Microsoft.ApplicationInsights.dll
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\bin\System.Web.Helpers.dll
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\bin\System.Web.Mvc.dll
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\bin\System.Web.Razor.dll
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\bin\System.Web.Webpages.Deployment.dll
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\bin\System.Web.Webpages.dll
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\bin\System.Web.Webpages.Razor.dll
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\bin\EntityFramework.xml
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\bin\EntityFramework.SqlServer.xml
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\bin\Microsoft.AI.Web.xml
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\bin\Microsoft.ApplicationInsights.xml
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\bin\System.Web.Razor.xml
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\bin\System.Web.Webpages.xml
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\bin\System.Web.Webpages.Deployment.xml
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\bin\System.Web.Webpages.Razor.xml
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\bin\System.Web.Helpers.xml
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\bin\System.Web.Mvc.xml
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\obj\Debug\DoAn1.csprojAssemblyReference.cache
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\obj\Debug\DoAn1.csproj.CoreCompileInputs.cache
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\obj\Debug\DoAn1.csproj.CopyComplete
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\obj\Debug\DoAn1.dll
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\obj\Debug\DoAn1.pdb
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\bin\Commonnn.dll
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\bin\Newtonsoft.Json.dll
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\bin\SendGrid.dll
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\bin\Commonnn.pdb
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\bin\Newtonsoft.Json.xml
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\bin\SendGrid.pdb
+C:\Users\sasukeango\Desktop\New folder\2-7\2-7\DoAn1\DoAn1\bin\SendGrid.xml
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\bin\ApplicationInsights.config
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\bin\roslyn\csc.exe
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\bin\roslyn\vbc.exe
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\bin\roslyn\VBCSCompiler.exe
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\bin\DoAn1.dll.config
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\bin\DoAn1.dll
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\bin\DoAn1.pdb
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\bin\Commonnn.dll
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\bin\EntityFramework.dll
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\bin\EntityFramework.SqlServer.dll
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\bin\Microsoft.AI.Web.dll
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\bin\Newtonsoft.Json.dll
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\bin\SendGrid.dll
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\bin\System.Web.Helpers.dll
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\bin\System.Web.Mvc.dll
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\bin\System.Web.Razor.dll
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\bin\System.Web.Webpages.dll
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\bin\System.Web.Webpages.Razor.dll
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\bin\Commonnn.pdb
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\bin\EntityFramework.xml
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\bin\EntityFramework.SqlServer.xml
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\bin\Microsoft.AI.Web.xml
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\bin\Newtonsoft.Json.xml
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\bin\SendGrid.pdb
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\bin\SendGrid.xml
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\bin\System.Web.Razor.xml
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\bin\System.Web.Webpages.xml
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\bin\System.Web.Webpages.Razor.xml
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\bin\System.Web.Helpers.xml
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\bin\System.Web.Mvc.xml
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\obj\Debug\DoAn1.csprojAssemblyReference.cache
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\obj\Debug\DoAn1.csproj.CoreCompileInputs.cache
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\obj\Debug\DoAn1.csproj.CopyComplete
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\obj\Debug\DoAn1.dll
+C:\Users\Win 10\Desktop\DoAn1\duy an gửi ngày 9-7\DoAn1\DoAn1\obj\Debug\DoAn1.pdb
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\obj\Debug\DoAn1.csprojAssemblyReference.cache
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\obj\Debug\DoAn1.csproj.CoreCompileInputs.cache
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\obj\Debug\DoAn1.dll
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\obj\Debug\DoAn1.pdb
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\bin\ApplicationInsights.config
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\bin\roslyn\csc.exe
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\bin\roslyn\vbc.exe
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\bin\roslyn\VBCSCompiler.exe
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\bin\DoAn1.dll.config
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\bin\DoAn1.dll
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\bin\DoAn1.pdb
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\bin\Commonnn.dll
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\bin\EntityFramework.dll
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\bin\EntityFramework.SqlServer.dll
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\bin\Microsoft.AI.Web.dll
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\bin\Newtonsoft.Json.dll
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\bin\SendGrid.dll
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\bin\System.Web.Helpers.dll
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\bin\System.Web.Mvc.dll
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\bin\System.Web.Razor.dll
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\bin\System.Web.Webpages.dll
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\bin\System.Web.Webpages.Razor.dll
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\bin\Commonnn.pdb
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\bin\EntityFramework.xml
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\bin\EntityFramework.SqlServer.xml
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\bin\Microsoft.AI.Web.xml
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\bin\Newtonsoft.Json.xml
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\bin\SendGrid.pdb
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\bin\SendGrid.xml
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\bin\System.Web.Razor.xml
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\bin\System.Web.Webpages.xml
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\bin\System.Web.Webpages.Razor.xml
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\bin\System.Web.Helpers.xml
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\bin\System.Web.Mvc.xml
+C:\Users\Win 10\Desktop\DoAn1\Báo cáo đồ án 1\test01\DoAn1\DoAn1\obj\Debug\DoAn1.csproj.CopyComplete

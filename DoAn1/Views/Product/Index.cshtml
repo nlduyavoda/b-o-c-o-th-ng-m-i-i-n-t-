@@ -1,0 +1,126 @@
+﻿@model IEnumerable<DoAn1.Models.Product>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+
+
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+    <link href="~/Content/style2.css" rel="stylesheet" />
+    <link href="~/Content/custom.css" rel="stylesheet" />
+    <!-- ICON -->
+    <script src="https://kit.fontawesome.com/30d0043b0e.js"></script>
+    <!-- FONT GOOGLE -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,700&display=swap" rel="stylesheet">
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+
+
+
+<div style="text-align:center">
+    @using (Html.BeginForm("Index", "Product"))
+    {
+
+    <div>
+        <p style="font-size:1.2rem">Search by:</p>
+        @Html.TextBox("search", "", new { Class = "admin__searchtable", placeholder = "Seach here" })<input class="admin_input" type="submit" value="Search" />
+    </div>
+        @Html.RadioButton("searchBy", "NameProduct")<span style="font-size:1.2rem">Name Product</span>
+        @Html.RadioButton("searchBy", "Available")<span style="font-size:1.2rem">Available</span>
+        @Html.RadioButton("searchBy", "None", true)<span style="font-size:1.2rem">None</span>
+
+    }
+</div>
+
+<div class="card">
+    <div class="card__header row">
+        <div class="col-md-10 card__header-left">
+            <h3>Table Product</h3>
+            <p style="font-size:1.2rem">Last campaign</p>
+        </div>
+        <div class="col-md-2 card__header-right">
+            <a href="../Product/Create" class="btn btn-primary">Create Product</a>
+            
+        </div>
+    </div>
+    <div class="card__body">
+
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col"> @Html.DisplayNameFor(model => model.IDProduct)</th>
+                    <th scope="col">@Html.DisplayNameFor(model => model.NameProduct)</th>
+                    <th scope="col">@Html.DisplayNameFor(model => model.UnitPrice)</th>
+                    <th scope="col">@Html.DisplayNameFor(model => model.Images)</th>
+                    <th scope="col">
+                        @Html.DisplayNameFor(model => model.ProductDate)
+                    </th>
+                    <th scope="col">
+                        @Html.DisplayNameFor(model => model.Available)
+                    </th>
+                    <th scope="col">
+                        @Html.DisplayNameFor(model => model.IDCategory)
+                    </th>
+                    <th scope="col">
+                        @Html.DisplayNameFor(model => model.Descriptions)
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.IDProduct)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NameProduct)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.UnitPrice)
+                    </td>
+                    <td>
+                        <img src="" />
+                        <img style="width:50px" src="@Url.Content(item.Images)" />
+
+
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ProductDate)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Available)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.IDCategory)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Descriptions)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Edit", "Edit", new { id = item.IDProduct }, new { Class = "btn btn-danger" }) 
+                        @Html.ActionLink("Details", "Details", new { id = item.IDProduct }, new { Class = "btn btn-warning" }) 
+                        @Html.ActionLink("Delete", "Delete", new { id = item.IDProduct }, new { Class = "btn btn-success" })
+                    </td>
+                </tr>
+                }
+
+            </tbody>
+        </table>
+
+    </div>
+</div>
+
+

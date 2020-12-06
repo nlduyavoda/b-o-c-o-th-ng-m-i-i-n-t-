@@ -1,0 +1,106 @@
+﻿@model DoAn1.Models.User
+
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width-device-width" />
+    <title>Index</title>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.19.1/jquery.validate.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/mvc/5.2.3/jquery.validate.unobtrusive.js"></script>
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>-->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">-->
+    <link href="~/Contents/Style.css" rel="stylesheet" />
+</head>
+<body>
+    
+    <div style="padding: 0 0;" class="container">
+        <div class="row account__page">
+            <h3 class="col-md-12 account__page-title">MY ACCOUNT</h3>
+
+            <div class="col-md-6 account__page-login">
+                <div class="account__page-note">
+                    <p>RETURNING CUSTOMER</p>
+                    <span>I am a returning customer</span>
+                </div>
+                @using (Html.BeginForm("Authen", "Login", FormMethod.Post))
+                {
+                    @Html.AntiForgeryToken()
+                    <form action="" class="account__page-form">
+                        <div class="form__group">
+                            <label for="">Email Address:</label>
+                            @Html.TextBoxFor(m => m.Email, new { Class = "form__group-input", placeholder = "Email address" })
+                            @Html.ValidationMessageFor(m => m.Email)
+                        </div>
+                        <div class="form__group">
+                            <label for="">Password:</label>
+                            @Html.PasswordFor(m => m.Password, new { Class = "form__group-input", placeholder = "Password" })
+                            @Html.ValidationMessageFor(m => m.Password)
+                        </div>
+                        <button type="submit" class="btnn btn__watch">Login</button>
+                        @Html.DisplayFor(m => m.LoginErrorMessage)
+                        <div class="form__link">
+                            <a href="...">Forgot your password? </a> or <a href="...">Return to Store</a>
+                        </div>
+                    </form>
+                }
+            </div>
+            <div class="col-md-6 account__page-register">
+                <div class="account__page-note">
+                    <p>NEW CUSTOMER</p>
+                    <span style="display:block;margin:10px 0;font-weight:400;">Register Account</span>
+                    <span>
+                        By creating an account you will be able to shop faster, be up to date on an order's status,
+                        and keep track of the orders you have previously made.
+                    </span>
+                </div>
+                @using (Html.BeginForm("Register", "Login", FormMethod.Post))
+                {
+                    @Html.AntiForgeryToken()
+                    <form action="" class="account__page-form">
+                        <div class="form__group">
+                            <label for="">First Name:</label>
+                            @Html.TextBoxFor(m => m.FirstName, new { Class = "form__group-input", placeholder = "First Name" })
+                        </div>
+                        <div class="form__group">
+                            <label for="">Last Name:</label>
+                            @Html.TextBoxFor(m => m.LastName, new { Class = "form__group-input", placeholder = "Last Name" })
+                        </div>
+                        <div class="form__group">
+                            <label for="">Email:</label>
+                            @Html.TextBoxFor(m => m.Email, new { Class = "form__group-input", placeholder = "Email" })
+                            @Html.ValidationMessageFor(m => m.Email)
+                        </div>
+                        @if (ViewBag.error != null)
+                        {
+                            <span class="field-validation-error">@ViewBag.error</span>
+                        }
+                        <div class="form__group">
+                            <label for="">Password:</label>
+                            @Html.PasswordFor(m => m.Password, new { Class = "form__group-input", placeholder = "Password" })
+                        </div>
+                        <div class="form__group">
+                            <label for="">Confirm Password:</label>
+                            @Html.PasswordFor(m => m.ConfirmPassword, new { Class = "form__group-input", placeholder = "Confirm Password" })
+                            @Html.ValidationMessageFor(m => m.ConfirmPassword)
+                        </div>
+                        <button type="submit" class="btnn btn__watch">Create an account</button>
+                        <div class="form__link">
+
+                        </div>
+                    </form>
+                }
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

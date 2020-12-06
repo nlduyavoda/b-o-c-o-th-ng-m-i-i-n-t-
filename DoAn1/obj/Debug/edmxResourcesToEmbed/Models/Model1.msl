@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DAdoanModelStoreContainer" CdmEntityContainer="DAdoanEntities3">
+    <EntitySetMapping Name="Categories">
+      <EntityTypeMapping TypeName="DAdoanModel.Category">
+        <MappingFragment StoreEntitySet="Categories">
+          <ScalarProperty Name="IDCategory" ColumnName="IDCategory" />
+          <ScalarProperty Name="NameCategory" ColumnName="NameCategory" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Customers">
+      <EntityTypeMapping TypeName="DAdoanModel.Customer">
+        <MappingFragment StoreEntitySet="Customers">
+          <ScalarProperty Name="IDCus" ColumnName="IDCus" />
+          <ScalarProperty Name="CodeCus" ColumnName="CodeCus" />
+          <ScalarProperty Name="Email_Cus" ColumnName="Email_Cus" />
+          <ScalarProperty Name="Address_Cus" ColumnName="Address_Cus" />
+          <ScalarProperty Name="Phone_Cus" ColumnName="Phone_Cus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="News">
+      <EntityTypeMapping TypeName="IsTypeOf(DAdoanModel.News)">
+        <MappingFragment StoreEntitySet="News">
+          <ScalarProperty Name="NewsID" ColumnName="NewsID" />
+          <ScalarProperty Name="Content_news" ColumnName="Content_news" />
+          <ScalarProperty Name="Image_news" ColumnName="Image_news" />
+          <ScalarProperty Name="Title_news" ColumnName="Title_news" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrderDetails">
+      <EntityTypeMapping TypeName="DAdoanModel.OrderDetail">
+        <MappingFragment StoreEntitySet="OrderDetail">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IDOrder" ColumnName="IDOrder" />
+          <ScalarProperty Name="IDProduct" ColumnName="IDProduct" />
+          <ScalarProperty Name="UnitPriceSale" ColumnName="UnitPriceSale" />
+          <ScalarProperty Name="QuantitySale" ColumnName="QuantitySale" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+          <ScalarProperty Name="Count_Order" ColumnName="Count_Order" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Orders">
+      <EntityTypeMapping TypeName="DAdoanModel.Order">
+        <MappingFragment StoreEntitySet="Orders">
+          <ScalarProperty Name="IDOrder" ColumnName="IDOrder" />
+          <ScalarProperty Name="OrderDate" ColumnName="OrderDate" />
+          <ScalarProperty Name="Descriptions" ColumnName="Descriptions" />
+          <ScalarProperty Name="CodeCus" ColumnName="CodeCus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Products">
+      <EntityTypeMapping TypeName="DAdoanModel.Product">
+        <MappingFragment StoreEntitySet="Products">
+          <ScalarProperty Name="IDProduct" ColumnName="IDProduct" />
+          <ScalarProperty Name="NameProduct" ColumnName="NameProduct" />
+          <ScalarProperty Name="UnitPrice" ColumnName="UnitPrice" />
+          <ScalarProperty Name="Images" ColumnName="Images" />
+          <ScalarProperty Name="ProductDate" ColumnName="ProductDate" />
+          <ScalarProperty Name="Available" ColumnName="Available" />
+          <ScalarProperty Name="IDCategory" ColumnName="IDCategory" />
+          <ScalarProperty Name="Descriptions" ColumnName="Descriptions" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="DAdoanModel.User">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="IDUser" ColumnName="IDUser" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Roles" ColumnName="Roles" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
